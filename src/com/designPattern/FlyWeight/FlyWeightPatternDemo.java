@@ -10,6 +10,7 @@ public class FlyWeightPatternDemo {
                     (Circle)ShapeFactory.getCircle(getRandomColor());
             circle.setX(getRandomX());
             circle.setY(getRandomY());
+
             circle.setRadius(100);
             circle.draw();
         }
