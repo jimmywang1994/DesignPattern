@@ -1,5 +1,6 @@
 package com.designPattern.Bridge;
 
+//桥接口的实现类
 public abstract class Shape {
     protected DrawAPI drawAPI;
 
